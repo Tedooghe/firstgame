@@ -1,4 +1,4 @@
-print('welcom to my first game!')
+print('welcome to my first game!')
 name = input('What is your name? ')
 age = input('How old are you? ')
 
