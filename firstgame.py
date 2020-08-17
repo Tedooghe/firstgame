@@ -7,10 +7,10 @@ print('Hello,', name, '.  You are', age, 'years old.')
 if age >= 18:
   print('You are old enough.')
   wantplay = input('Do you want to play? ').lower()
-  if wantplay == 'yes':
-    print("let's play!")
-else:
+  if wantplay == 'no':
     print('Fine, whatever!')
+  else:
+    print("let's play!")
     Log_or_Int = print('Which makes the best choices, A-Logic or B-Intuition (A/B)? ').upper()
     if Log_or_Int == 'A':
       print('Cognition researchers have named over 350 different ways that all humans make choices based on bias, heuristics, and fallacy instead of logic.')
