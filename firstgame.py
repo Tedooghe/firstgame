@@ -27,7 +27,7 @@ if age >= 18:
 
 
     else:
-      print('A every tyrant intuitively believes that they are destined to rule and will do whatever it takes to achieve this including slaughter and slavery. God has told them to trust themself.')
+      print('Every tyrant intuitively believes that they are destined to rule and will do whatever it takes to achieve this including slaughter and slavery. God has told them to trust themself.')
       destiny = input('Are they right (yes/no)? ')  .upper()
       if destiny == 'YES':
         print('I intuitively decide that I should hunt you down and kill you.')
